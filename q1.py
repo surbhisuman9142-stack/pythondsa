@@ -1,8 +1,7 @@
+def parity(n):
+    if n % 2 == 0:
+        return "even"
+    else:
+        return "odd"
 n = int(input("Enter any number:"))
-count = 0
-
-while n > 0:
-    count = count + 1
-    n = n // 10
-
-print(count)
+print(parity(n))
