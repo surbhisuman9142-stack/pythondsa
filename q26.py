@@ -1,0 +1,5 @@
+def set(a,b):
+    return a.union(b)
+a = {1,2,3,4}
+b = {3,4,5,6}
+print(set(a,b))
