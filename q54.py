@@ -1,4 +1,4 @@
-def logest_subarray(nums,k):
+def longest_subarray(nums,k):
     left = 0
     window_sum = 0
     max_length = 0
