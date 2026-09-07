@@ -11,4 +11,4 @@ def longest_subarray(nums,k):
     return max_length
 nums = [2,1,5,1,3,2]
 k = 7
-print(logest_subarray(nums,k))
+print(longest_subarray(nums,k))
