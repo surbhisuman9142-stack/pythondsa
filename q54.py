@@ -1,4 +1,4 @@
-def logest_subarray(nums,k):
+def longest_subarray(nums,k):
     left = 0
     window_sum = 0
     max_length = 0
@@ -11,4 +11,4 @@ def logest_subarray(nums,k):
     return max_length
 nums = [2,1,5,1,3,2]
 k = 7
-print(logest_subarray(nums,k))
+print(longest_subarray(nums,k))
