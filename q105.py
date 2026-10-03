@@ -17,4 +17,5 @@ def evaluate(tokens):
             stack.append(result)
     return stack[-1]
 tokens = ["2", "1", "+", "3", "*"]
-print(evaluate(tokens))  
+print(evaluate(tokens)) 
+
