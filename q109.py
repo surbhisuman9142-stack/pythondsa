@@ -9,7 +9,7 @@ def decodeString(s):
             stack.append((current,number))
             current = ""
             number = 0
-        elif ch =="]":
+        elif ch == "]":
             previous, repeat = stack.pop()
             current = previous + current * repeat
         else:
