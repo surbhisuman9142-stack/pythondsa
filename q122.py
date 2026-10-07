@@ -10,5 +10,5 @@ def subsets(nums):
         current.pop()
     backtrack(0,[])
     return result
-nums = [1,2,3]
+nums = [4,5,6]
 print(subsets(nums))
