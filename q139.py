@@ -12,12 +12,12 @@ def right_view(root):
         size = len(queue)
         for i in range(size):
             node = queue.pop(0)
-        if i == size - 1:
-            result.append(node.data)
-        if node.left:
-            queue.append(node.left)
-        if node.right:
-            queue.append(node.right)
+            if i == size - 1:
+              result.append(node.data)
+            if node.left:
+             queue.append(node.left)
+            if node.right:
+             queue.append(node.right)
     return result
 root = Node(1)
 root.left = Node(2)
